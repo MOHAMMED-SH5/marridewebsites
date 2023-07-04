@@ -1,0 +1,426 @@
+body
+{
+    background-image: url('../img/bg.jpg');
+    width: 100%;
+    height: 100vh;
+    font-family: 'Cairo';
+
+}
+@font-face {
+    font-family: Cairo;
+    src: url(../fonts/Cairo\ Regular\ 400.ttf);
+    
+}
+.ahreflinks
+{
+    text-decoration: none;
+}
+p
+{
+    margin: 0px !important;
+}
+.navs
+{
+    background-color: #273444;
+    color: white;
+}
+.flexnavs
+{
+    padding-right: 9%;
+    padding-left: 9%;
+}
+.btn-advertisement
+{
+    color: #128C7E;
+    background-color: #E5FFCC;
+}
+.navbar
+{
+    background-color: #128C7E;
+}
+.navbar-brand
+{
+    color: white !important;
+    font-size: 35px;
+}
+.navbar-light .navbar-text a, .navbar-light .navbar-text a:focus, .navbar-light .navbar-text a:hover {
+    color: white;
+}
+.dropdown-item
+{
+    color: black !important;
+}
+.banner-text
+{
+    color: #212020;
+    font-size: 35px;
+}
+.boxadvertisement
+{
+    background-color: white;
+    height: 40vh;
+    border: 1px solid #707070;
+}
+.advertisemenph
+{
+    padding-top: 5%;
+    color: #898787;
+    font-size: 74px;
+}
+.numbergirls
+{
+    color: #212020;
+    font-size: 30px;
+}
+.twobox-advertisement
+{
+    background-color: white;
+    height: 23vh;
+    border: 1px solid #707070; 
+}
+.texttboxad
+{
+    text-align: center;
+    color: #898787;
+    font-size: 33px;
+}
+.box-rating
+{
+    background-color: #7F7F7F;
+}
+.backw
+{
+    background-color: white;
+}
+.text-rating
+{
+    color: white;
+    font-size: 25px;  
+}
+.btn-data-rating
+{
+    background-color: #D1B000;
+    color: white;
+    font-size: 12px;
+    border-radius: 0px !important;
+    text-align: right !important;
+}
+.lastshare
+{
+    background-color: #7F7F7F;
+}
+.text-share
+{
+    color: white;
+    font-size: 25px;
+}
+.boxlastsharing
+{
+    background-color: white;
+}
+.text-boxsharing
+{
+    color:#030303;
+    font-size: 20px;  
+}
+.box-cards
+{
+    background-color: #128C7E;
+    border-radius: 3px;
+}
+.text-card
+{
+    color: white;
+    font-size: 23px;
+}
+.footer
+{
+    background-color: #273444;
+    color: white;
+}
+.circle-icons
+{
+    height:40px;
+    width: 40px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+}
+.fa-pinterest,.fa-twitter,.fa-instagram,.fa-whatsapp,.fa-facebook
+{
+    color: #273444;
+    font-size: 30px;
+}
+
+/* potfile page */
+.boxallsec
+{
+    background-color: white;
+}
+.text-box-all
+{
+    color: #000000;
+    font-size: 18px;
+    font-weight: bold;  
+}
+.boxpersondata
+{
+    background-color: #EFEFEF;
+    border: 1px solid #B850A1;
+}
+.box-detailes-data
+{
+    background-color: #FFFFFF;
+    border: 1px solid #707070; 
+    width: 98%;
+}
+.data-box-persons
+{
+    width: 70%;
+
+}
+.imggirls
+{
+    width: 110%;
+}
+.space
+{
+    padding-bottom: 1px;
+}
+.box-person
+{
+    background-color: #F7F4F4;
+}
+.data-box-two-persons
+{
+    width: 50%;
+}
+.Contactmebutton
+{
+    background-color: #38A897;
+    color: white !important;
+}
+.Contactmebuttonfacebook
+{
+    background-color: #3E6EDF;
+    color: white !important;
+}
+.viewnumberphone
+{
+    background-color: #000000;
+    color: white !important;
+}
+.textgada
+{
+    color: #000000;
+    font-size: 24px;
+    font-weight: bold; 
+}
+.Leave-message-box
+{
+    background-color: #EFEFEF;
+    border: 1px solid #B850A1;
+}
+.textleavemesge
+{
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+}
+#exampleFormControlTextarea1
+{
+    height: 25vh;
+    border: 1px solid #707070;
+}
+.form-control
+{
+    border: 1px solid #707070; 
+    border-radius: 3px !important;
+}
+.btn-send
+{
+    background-color:#38A897;
+    color: white;
+    font-size:20px;
+    width: 18%;
+    font-weight: bold;
+}
+::placeholder
+{
+    color: #707070;
+    font-size: 20px; 
+}
+.boxrow-advers-profile
+{
+    background-color: #EFEFEF;
+    height: 27vh;
+    border: 1px solid #707070; 
+}
+.advenstertext
+{
+    color: #707070;
+    font-size: 51px;
+    font-weight: bold;
+}
+.bg-morenumbers
+{
+    background-color: #F7F4F4;
+}
+.morenumberes
+{
+    color: #273444;
+    font-size: 30px;
+}
+/* adverstion */
+.navbar-nav 
+{
+    width: 40%;
+}
+.input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+    margin-left: -1px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 3px ;
+    border-bottom-left-radius: 3px ;
+}
+#searchinput
+{
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important; 
+    border-color: white;
+}
+.input-group-text
+{
+    background-color: white;
+    border-color: white;
+    
+}
+.boxupload
+{
+    border: 5px solid #A70B0B;
+    border-style: dashed ;
+    margin-top: 40%;
+}
+.fa-upload
+{
+    color: #000000;
+    font-size: 50px;
+}
+.image-upload > input
+{
+    display: none;
+}
+
+.image-upload img
+{
+    width: 80px;
+    cursor: pointer;
+}
+.uploadimgtext
+{
+    color: #000000;
+    font-size: 14px;
+    font-weight: bold;   
+}
+.allAttention
+{
+    background-color: white;
+    margin-bottom: 10%;
+}
+.Attention
+{
+    background-color: #F7F4F4;
+    border: 1px solid #B850A1;
+}
+.text-attention
+{
+    color: #F50303;
+    font-size:24px;
+}
+.data-attention
+{
+    color: #000000;
+    font-size: 20px;
+    font-weight: 400;
+}
+#nameinputstext,#stateinputstext,#cityinputstext,#ageinputstext,#genderinputstext,#sateinputstext,#marridinputstext,#phoneinputstext
+{
+    color: #000000;
+    font-size: 24px;
+}
+#nameinputs,#stateinputs,#cityinputs,#ageinputs,#genderinput,#sateainputs,#marridinput,#phoneinput
+{
+    border: 1px solid #707070; 
+    border-radius: 0px !important;
+}
+.Briefdescritption
+{
+    color: #000000;
+    font-size: 23px;
+    font-weight: 400; 
+}
+#exampleFormControlTextarea2
+{
+    border: 1px solid #707070; 
+    border-radius: 0px !important; 
+    height: 35vh;
+}
+.btn-send
+{
+    background-color: #E5FFCC;
+    color: #128C7E;
+    border-color: #537235;
+    border-radius: 3px;
+}
+@media (max-width: 575.98px) { 
+    .box-cards
+    {
+        margin-top: 10px;
+    }
+    .circle-icons
+    {
+        height:30px;
+        width: 30px;
+        background-color: white;
+        border-radius: 50%;
+        display: inline-block;
+    }
+    .fa-pinterest,.fa-twitter,.fa-instagram,.fa-whatsapp,.fa-facebook
+    {
+        color: #273444;
+        font-size: 18px;
+    }
+    .btn-send 
+    {
+        width: 100%;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+ }
+
+@media (min-width: 575.98px) { 
+    .box-cards
+    {
+        margin-top: 10px;
+    }
+ }
+
+@media (min-width: 767.98px) {
+    .box-cards
+    {
+        margin-top: 10px;
+    }
+  }
+
+@media (min-width: 991.98px) { 
+    .box-cards
+    {
+        margin-top: 10px;
+    }
+ }
+
+@media (min-width: 1199.98px) {}
+
+@media (min-width: 1399.98px) {}
+
+
